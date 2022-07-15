@@ -51,14 +51,12 @@ class Item extends React.Component {
         <div className="text-dark">
           <div className="row bg-white p-4">
             <div className="col-6">
-
               <img
                 src={itemImage ? itemImage : image}
                 alt={this.props.item.title}
                 className="item-img"
                 style={{ height: "500px", width: "100%", borderRadius: "6px" }}
               />
-            
             </div>
 
             <div className="col-6">
